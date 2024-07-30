@@ -1,0 +1,17 @@
+.margen-horizontal-auto{
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+}
+.registro{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+
+}
+.registro:hover{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,208 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+}
+.aconcagua{
+    width: 100%;
+    height: 500px;
+}
+.aconcagua img{
+    width: 100%;
+    height: 500px;
+    padding: 0px 10px ;
+    position: relative;
+    top: 15px;
+    border-radius: 30px;
+}
+.aconcagua-p{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin-top: 30px;
+}
+.aconcagua-p p {
+    grid-column: 2 / 3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.aconcagua-p ul{
+    grid-column: 2 / 3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+.aconcagua-p li{
+    margin: 30px 0px;
+}
+.gastronomia{
+    width: 100%;
+    height: 500px;
+}
+.gastronomia img{
+    width: 90%;
+    height: 500px;
+    padding: 10px 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.gastronomia-p{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin-top: 10px;
+}
+.gastronomia-p p{
+    grid-column: 2/ 3;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+.gastronomia-p ul{
+    grid-column: 2 / 3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+.gastronomia-p li{
+    margin: 20px 0px;
+}
+.nieve{
+    width: 100%;
+    height: 500px;
+}
+.nieve img{
+    width: 90%;
+    height: 500px;
+    padding: 0px 20px;
+    position: relative;
+    left: 5%;
+    right: 5%;
+    margin-top: 10px;
+}
+.nieve-p{
+    display: grid;
+    grid-template-columns: 10% 70%;
+    margin-top: 40px;
+}
+.nieve-p p{
+    grid-column: 2 / 3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.nieve-p ul{
+    grid-column: 2 / 3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+.nieve-p li{
+    margin: 20px 0px;
+}
+.rio{
+    width: 100%;
+    height: 500px;
+}
+.rio img{
+    width: 90%;
+    height: 500px;
+    padding: 0px 20px;
+    margin: 10px 0px;
+    border-radius: 30px;
+    position: relative;
+    left: 5%;
+    right: 5%;
+}
+.rio-p{
+    display: grid;
+    grid-template-columns: 5% 95%;
+    margin-top: 30px;
+}
+.rio-p p{
+    grid-column: 2 / 3;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rio-p ul{
+    grid-column: 2 / 3;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rio-p li{
+    margin: 10px 0px;
+}
+.spa{
+    width: 100%;
+    height: 500px;
+}
+.spa img{
+   width: 100%;
+   height: 500px;
+   padding: 10px 20px;
+   border-radius: 50px;
+}
+.spa-p{
+    display: grid;
+    grid-template-columns: 5% 95%;
+    margin-top: 10px;
+}
+.spa-p p{
+    grid-column: 2 / 3;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.spa-p ul{
+    grid-column: 2 / 3;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+.spa-p li{
+    margin: 10px 0px;
+}
+.vendimia{
+    width: 100%;
+    height: 500px;
+}
+.vendimia img{
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.vendimia-p{
+    display: grid;
+    grid-template-columns: 5% 95%;
+    margin-top: 10px;
+}
+.vendimia-p h2{
+    color: rgb(127, 173, 173);
+    grid-column: 2 / 3;
+    font-size: 40px;
+    padding: 10px 0px;
+}
+.vendimia-p p{
+    grid-column: 2 / 3;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.actrativos-vendimia{
+    grid-column: 2 / 3;
+}
+.actrativos-vendimia p{
+    font-size: 30px;
+    color:  rgb(127, 173, 173);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.actrativos-vendimia ul{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.actrativos-vendimia li{
+    margin: 10px 0px;
+}
